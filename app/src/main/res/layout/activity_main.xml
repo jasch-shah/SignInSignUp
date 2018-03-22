@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.signinsignup.MainActivity"
+    android:background="@drawable/welcome_bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textSize="40sp"
+            android:fontFamily="cursive"
+            />
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logout_btn"
+            android:text="@string/register"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textAllCaps="false"
+            android:layout_marginTop="40dip"
+            android:textSize="15sp"
+            android:onClick="clickedRegister"
+            />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logout_btn"
+            android:text="@string/login"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textAllCaps="false"
+            android:layout_marginTop="40dip"
+            android:textSize="15sp"
+            />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logout_btn"
+            android:text="@string/update"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textAllCaps="false"
+            android:layout_marginTop="40dip"
+            android:textSize="15sp"
+            />
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logout_btn"
+            android:text="@string/delete"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textAllCaps="false"
+            android:layout_marginTop="40dip"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+</RelativeLayout>

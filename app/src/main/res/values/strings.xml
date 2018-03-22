@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SignInSignUp</string>
+    <string name="welcome">Welcome</string>
+    <string name="logout_btn">Logout</string>
+    <string name="login_here">Login here</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_email">Email</string>
+    <string name="after_login_text">You have successfully logged in to app</string>
+    <string name="delete">Delete</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="register_here">Register here</string>
+    <string name="update">Update</string>
+</resources>
